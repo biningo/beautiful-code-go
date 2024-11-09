@@ -22,6 +22,9 @@ func demo2() error {
 	return nil
 }
 
+/*
+统一处理error
+*/
 func main() {
 	exitCh := make(chan error)
 	var once sync.Once
